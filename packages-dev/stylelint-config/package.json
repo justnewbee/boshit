@@ -1,0 +1,37 @@
+{
+  "name": "@boshit/stylelint-config",
+  "version": "0.1.0",
+  "description": "Boshit shareable stylelint config.",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "author": {
+    "name": "Jianchun Wang",
+    "email": "justnewbee@gmail.com"
+  },
+  "homepage": "https://github.com/justnewbee/boshit/tree/master/packages-dev/stylelint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justnewbee/boshit.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/justnewbee/boshit/issues"
+  },
+  "peerDependencies": {
+    "stylelint": ">=15"
+  },
+  "devDependencies": {
+    "stylelint": "^15.11.0"
+  },
+  "dependencies": {
+    "postcss-less": "^6.0.0",
+    "postcss-sass": "^0.5.0",
+    "postcss-scss": "^4.0.9",
+    "postcss-styled-syntax": "^0.5.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3"
+  }
+}

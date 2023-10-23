@@ -1,0 +1,32 @@
+{
+  "name": "@boshit/npm-package-json-lint-config",
+  "version": "0.1.0",
+  "description": "Boshit shareable package.json lint config.",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "author": {
+    "name": "Jianchun Wang",
+    "email": "justnewbee@gmail.com"
+  },
+  "homepage": "https://github.com/justnewbee/boshit/tree/master/packages-dev/npm-package-json-lint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justnewbee/boshit.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/justnewbee/boshit/issues"
+  },
+  "peerDependencies": {
+    "npm-package-json-lint": ">=7"
+  },
+  "devDependencies": {
+    "npm-package-json-lint": "^7.0.0"
+  },
+  "dependencies": {
+    "npm-package-json-lint-config-default": "^6.0.0"
+  }
+}

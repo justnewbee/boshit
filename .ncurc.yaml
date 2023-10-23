@@ -1,0 +1,6 @@
+upgrade: true
+dep: dev,prod
+format: group
+timeout: 120000
+#reject:
+#  - 'xxx' # why

@@ -1,0 +1,57 @@
+{
+  "name": "boshit",
+  "version": "0.1.0",
+  "description": "The boshit project.",
+  "keywords": [],
+  "license": "ISC",
+  "private": true,
+  "author": {
+    "name": "Jianchun Wang",
+    "email": "justnewbee@gmail.com"
+  },
+  "homepage": "https://github.com/justnewbee/boshit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justnewbee/boshit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justnewbee/boshit/issues"
+  },
+  "devDependencies": {
+    "@alicloud/eslint-config": "^1.13.3",
+    "@boshit/markdownlint-config": "^0.1.0",
+    "@boshit/npm-package-json-lint-config": "^0.1.0",
+    "@boshit/stylelint-config": "^0.1.0",
+    "@boshit/ts-config": "^0.1.0",
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0",
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "eslint": "^8.52.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "markdownlint-cli2": "^0.10.0",
+    "npm-check-updates": "^16.14.6",
+    "npm-package-json-lint": "^7.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0"
+  },
+  "lint-staged": {
+    "package.json": "npmPkgJsonLint",
+    "*.md": "markdownlint-cli2",
+    "*.{js,ts,tsx}": "eslint",
+    "*.{css,less}": "stylelint"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "boot": "pnpm clean && pnpm i --no-lockfile",
+    "boot:packages": "pnpm -r run prepublishOnly",
+    "clean:build": "rm -rf packages-*/**/build",
+    "clean:node_modules": "rm -rf node_modules packages-*/**/node_modules demos/**/node_modules",
+    "clean": "npm run clean:build && npm run clean:node_modules",
+    "ncu:packages": "pnpm -r exec ncu"
+  }
+}

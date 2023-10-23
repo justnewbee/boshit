@@ -1,0 +1,3 @@
+{
+  "extends": "@boshit/ts-config/index.json"
+}

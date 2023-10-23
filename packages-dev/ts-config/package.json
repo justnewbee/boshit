@@ -1,0 +1,26 @@
+{
+  "name": "@boshit/ts-config",
+  "version": "0.1.0",
+  "description": "Boshit shareable tsconfig.",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.json",
+  "author": {
+    "name": "Jianchun Wang",
+    "email": "justnewbee@gmail.com"
+  },
+  "homepage": "https://github.com/justnewbee/boshit/tree/master/packages-dev/ts-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justnewbee/boshit.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/justnewbee/boshit/issues"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.*"
+  }
+}

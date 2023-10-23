@@ -1,0 +1,29 @@
+{
+  "name": "@boshit/markdownlint-config",
+  "version": "0.1.0",
+  "description": "Boshit shareable markdownlint config.",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.yaml",
+  "author": {
+    "name": "Jianchun Wang",
+    "email": "justnewbee@gmail.com"
+  },
+  "homepage": "https://github.com/justnewbee/boshit/tree/master/packages-dev/markdownlint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justnewbee/boshit.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/justnewbee/boshit/issues"
+  },
+  "peerDependencies": {
+    "markdownlint-cli2": ">=0"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.10.0"
+  }
+}
